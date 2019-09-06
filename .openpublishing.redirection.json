@@ -1,0 +1,8 @@
+{
+  "redirections": [
+    {
+      "source_path": "archvieTargetFolder/index.md",
+      "redirect_url": "/E2EArchiveSouce/index"
+    }
+  ]
+}
