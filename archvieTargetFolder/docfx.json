@@ -17,6 +17,25 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "SubFolder",
+        "dest": "SubFolder"
       }
     ],
     "resource": [
@@ -39,7 +58,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/E2EArchiveTarget/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "docs_archive": "tool"
     },
     "fileMetadata": {},
     "template": [],
