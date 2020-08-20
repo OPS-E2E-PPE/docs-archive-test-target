@@ -1,12 +1,50 @@
 {
   "build": {
     "content": [
+      {
+        "files": [
+          "SubFolder/**/*.md",
+          "SubFolder/**/*.yml"
+        ],
+        "exclude": [
+          "SubFolder/**/obj/**",
+          "SubFolder/**/includes/**",
+          "SubFolder/_themes/**",
+          "SubFolder/_themes.pdf/**",
+          "SubFolder/**/docfx.json",
+          "SubFolder/_repo.en-us/**",
+          "SubFolder/README.md",
+          "SubFolder/LICENSE",
+          "SubFolder/LICENSE-CODE",
+          "SubFolder/ThirdPartyNotices.md"
+        ],
+        "src": "SubFolder"
+      }
     ],
     "resource": [
+      {
+        "files": [
+          "SubFolder/**/*.png",
+          "SubFolder/**/*.jpg"
+        ],
+        "exclude": [
+          "SubFolder/**/obj/**",
+          "SubFolder/**/includes/**",
+          "SubFolder/_themes/**",
+          "SubFolder/_themes.pdf/**",
+          "SubFolder/**/docfx.json",
+          "SubFolder/_repo.en-us/**"
+        ],
+        "src": "SubFolder"
+      }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "breadcrumb_path": "/DocsE2EArchiveTarget/breadcrumb/DocsE2EArchiveTarget/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "docs_archive": "tool"
     },
     "fileMetadata": {},
     "template": [],
