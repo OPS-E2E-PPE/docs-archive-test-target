@@ -39,7 +39,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/E2EArchiveTarget/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "docs_archive": "tool",
+      "uhfHeaderId": "MSDocsHeader-Archive"
     },
     "fileMetadata": {},
     "template": [],
