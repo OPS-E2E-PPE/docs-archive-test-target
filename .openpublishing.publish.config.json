@@ -7,6 +7,9 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
+      "xref_query_tags": [
+        "/DocsE2EArchiveSource"
+      ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content"
@@ -42,6 +45,12 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "archiveTargetFolder\\_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
