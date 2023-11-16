@@ -1,7 +1,116 @@
 {
   "build": {
-    "content": [
-    ],
+     "content": [
+          { "files": [ 
+            "artifacts/nuget/bootstrap-nuget.md", 
+            "pipelines/apps/cd/deploy-linuxvm-deploygroups.md", 
+            "pipelines/apps/cd/howto-webdeploy-iis-deploygroups.md"] 
+          },
+          { "files": [ "breadcrumb/toc.yml" ]  },
+  
+          { "files": ["**/*.md", "**/**.yml", "**/*.yml"], "group": "conceptual", "src": "overview", "dest": "all", "exclude": ["**/includes/**"] },
+    
+          { "files": ["toc.yml"], "src": "tfs-2013", "group": "ado-tfs-2013" },
+          { "files": ["toc.yml", "**/*.md", "**/*.yml" ], "src": "tfs-2013", "group": "ado-tfs-2013", "exclude": ["**/includes/**", "**/media/**"] },
+    
+          { "files": ["toc.yml"], "src": "tfs-2015", "group": "ado-tfs-2015" },
+          { "files": ["toc.yml", "**/*.md", "**/*.yml" ], "src": "tfs-2015", "group": "ado-tfs-2015", "exclude": ["**/includes/**", "**/media/**"] },
+    
+          { "files": ["toc.yml"], "src": "tfs-2017", "group": "ado-tfs-2017" },
+          { "files": ["toc.yml", "**/*.md", "**/*.yml" ], "src": "tfs-2017", "group": "ado-tfs-2017", "exclude": ["**/includes/**", "**/media/**"] },
+    
+          { "files": ["toc.yml"], "src": "release-notes" },
+          { "files": ["toc.yml", "**/*.md", "**/*.yml" ], "src": "release-notes", "group": "ado-release-notes" } ,
+  
+        {
+          "files": [
+            "**/*.md",
+            "**/**.yml",
+            "**/*.yml"
+          ],
+          "exclude": [
+            "**/includes/**"
+          ],
+          "src": "overview",
+          "dest": "all",
+          "group": "conceptual"
+        },
+        {
+          "files": [
+            "toc.yml"
+          ],
+          "src": "tfs-2013",
+          "group": "ado-tfs-2013"
+        },
+        {
+          "files": [
+            "toc.yml",
+            "**/*.md",
+            "**/*.yml"
+          ],
+          "exclude": [
+            "**/includes/**",
+            "**/media/**"
+          ],
+          "src": "tfs-2013",
+          "group": "ado-tfs-2013"
+        },
+        {
+          "files": [
+            "toc.yml"
+          ],
+          "src": "tfs-2015",
+          "group": "ado-tfs-2015"
+        },
+        {
+          "files": [
+            "toc.yml",
+            "**/*.md",
+            "**/*.yml"
+          ],
+          "exclude": [
+            "**/includes/**",
+            "**/media/**"
+          ],
+          "src": "tfs-2015",
+          "group": "ado-tfs-2015"
+        },
+        {
+          "files": [
+            "toc.yml"
+          ],
+          "src": "tfs-2017",
+          "group": "ado-tfs-2017"
+        },
+        {
+          "files": [
+            "toc.yml",
+            "**/*.md",
+            "**/*.yml"
+          ],
+          "exclude": [
+            "**/includes/**",
+            "**/media/**"
+          ],
+          "src": "tfs-2017",
+          "group": "ado-tfs-2017"
+        },
+        {
+          "files": [
+            "toc.yml"
+          ],
+          "src": "release-notes"
+        },
+        {
+          "files": [
+            "toc.yml",
+            "**/*.md",
+            "**/*.yml"
+          ],
+          "src": "release-notes",
+          "group": "ado-release-notes"
+        }
+      ],
     "resource": [
     ],
     "overwrite": [],
